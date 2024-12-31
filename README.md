@@ -16,9 +16,17 @@ For the best development experience, it is recommended to use [Visual Studio Cod
 
 Make sure you have [Node.js](https://nodejs.org/en/download/) and npm installed.
 
-### Service Account
+### Installation
 
-Obtain a service account JSON key from Google Cloud Console. Ensure the service account has the necessary permissions for your project.
+Clone the repository and install the dependencies:
+
+```sh
+git clone https://github.com/LilDarkin/planning-poker-online.git
+cd planning-poker-online
+npm install
+```
+
+Service Account: Obtain a service account JSON key from Google Cloud Console. Ensure the service account has the necessary permissions for your project.
 ```sh
 It looks like this:
 
@@ -37,15 +45,6 @@ It looks like this:
 }
 
 name it "pokeronline.json" and put it in "/src/Services" folder
-```
-### Installation
-
-Clone the repository and install the dependencies:
-
-```sh
-git clone https://github.com/LilDarkin/planning-poker-online.git
-cd planning-poker-online
-npm install
 ```
 
 Compile and Hot-Reload for Development
