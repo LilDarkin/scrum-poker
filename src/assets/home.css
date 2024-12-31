@@ -1,0 +1,156 @@
+.content {
+  margin-top: 50px;
+  width: 100%;
+  height: fit-content;
+}
+
+/* CARD */
+.card {
+  width: 470px;
+  height: 254px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(110, 9, 226, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg, #004990, #004990 50%, #004990);
+}
+
+.card__content {
+  background: #00499080;
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+}
+
+.card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+  padding: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 0;
+  box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;
+  background-color: hsl(210deg 100% 44%);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 31ms cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+
+.card__btn:before {
+  content: attr(alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 4px;
+  opacity: 1;
+}
+
+.card__btn:active {
+  box-shadow: none;
+  transform: translateY(7px);
+  transition: 35ms cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+
+.card__btn:hover:before {
+  transition: all 0s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.card__btn i {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-style: normal;
+  transition: all 1s ease;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.card__btn:hover i {
+  transition: all 0.2s ease;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* CREATE */
+.card__create:hover i:nth-child(1) {
+  transition-delay: 0.045s;
+}
+
+.card__create:hover i:nth-child(2) {
+  transition-delay: calc(0.045s * 3);
+}
+
+.card__create:hover i:nth-child(3) {
+  transition-delay: calc(0.045s * 4);
+}
+
+.card__create:hover i:nth-child(4) {
+  transition-delay: calc(0.045s * 5);
+}
+
+.card__create:hover i:nth-child(5) {
+  transition-delay: calc(0.045s * 6);
+}
+
+.card__create:hover i:nth-child(6) {
+  transition-delay: calc(0.045s * 7);
+}
+
+.card__create:hover i:nth-child(8) {
+  transition-delay: calc(0.045s * 8);
+}
+
+.card__create:hover i:nth-child(9) {
+  transition-delay: calc(0.045s * 9);
+}
+
+.card__create:hover i:nth-child(10) {
+  transition-delay: calc(0.045s * 10);
+}
+
+.card__create:hover i:nth-child(11) {
+  transition-delay: calc(0.045s * 11);
+}
+
+/* JOIN */
+.card__join:hover i:nth-child(1) {
+  transition-delay: 0.045s;
+}
+
+.card__join:hover i:nth-child(2) {
+  transition-delay: calc(0.045s * 3);
+}
+
+.card__join:hover i:nth-child(3) {
+  transition-delay: calc(0.045s * 4);
+}
+
+.card__join:hover i:nth-child(4) {
+  transition-delay: calc(0.045s * 5);
+}
+
+.card__join:hover i:nth-child(6) {
+  transition-delay: calc(0.045s * 6);
+}
+
+.card__join:hover i:nth-child(7) {
+  transition-delay: calc(0.045s * 7);
+}
+
+.card__join:hover i:nth-child(8) {
+  transition-delay: calc(0.045s * 8);
+}
+
+.card__join:hover i:nth-child(9) {
+  transition-delay: calc(0.045s * 9);
+}
