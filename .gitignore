@@ -30,3 +30,4 @@ coverage
 *.tsbuildinfo
 .env
 /src/Services/pokeronline.json
+.vercel
